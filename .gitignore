@@ -167,3 +167,4 @@ cython_debug/
 .pypirc
 mi-create-setup-complete.txt
 .DS_Store
+.vscode/settings.json

@@ -495,7 +495,7 @@ class WatchfaceEditor(QMainWindow):
 
     def reloadImages(self, imageFolder):
         self.ui.resourceList.clear()
-        if imageFolder != None:
+        if imageFolder != None and imageFolder != "" and os.path.exists(imageFolder):
             self.resourceImages.clear()
             directory = os.listdir(imageFolder)
             directory.sort()
